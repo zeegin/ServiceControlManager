@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfApplication.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Service Control Manager" Height="182" Width="531">
+    <Grid Height="135" Width="495">
+        <TextBox Height="23" HorizontalAlignment="Right" Margin="0,12,104,0" Name="filePathTextBox" VerticalAlignment="Top" Width="253" />
+        <Button Content="Open" Height="23" HorizontalAlignment="Right" Margin="0,12,14,0" Name="openFileDialogButton" VerticalAlignment="Top" Width="75" Click="openFileDialogButton_Click" />
+        <TextBox Height="23" HorizontalAlignment="Right" Margin="0,61,217,0" Name="serviceNameTextBox" VerticalAlignment="Top" Width="140" />
+        <Button Content="Add" Height="23" HorizontalAlignment="Right" Margin="0,61,104,0" Name="addDriverButton" VerticalAlignment="Top" Width="75" Click="addDriverButton_Click" />
+        <Button Content="Delete" Height="23" HorizontalAlignment="Right" Margin="0,61,14,0" Name="deleteDriverButton" VerticalAlignment="Top" Width="75" Click="deleteDriverButton_Click" />
+        <Button Content="Start" Height="23" HorizontalAlignment="Right" Margin="0,90,104,0" Name="startDriverButton" VerticalAlignment="Top" Width="75" Click="startDriverButton_Click" />
+        <Button Content="Stop" Height="23" HorizontalAlignment="Right" Margin="0,90,14,0" Name="stopDriverButton" VerticalAlignment="Top" Width="75" Click="stopDriverButton_Click" />
+        <Label Content="File path:" Height="28" HorizontalAlignment="Left" Margin="74,12,0,0" Name="filePathLabel" VerticalAlignment="Top" />
+        <Label Content="Service name:" Height="28" HorizontalAlignment="Left" Margin="49,61,0,0" Name="serviceNameLabel" VerticalAlignment="Top" />
+    </Grid>
+</Window>
